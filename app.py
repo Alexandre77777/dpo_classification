@@ -96,7 +96,7 @@ elif mode == "Нарисовать изображение":
         # Отправка запроса на сервер FastAPI
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/predict/",
+                "https://dpo-classification.onrender.com/predict/",
                 files={"file": ("image.png", img_byte_arr, "image/png")}
             )
             response.raise_for_status()
