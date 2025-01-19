@@ -40,8 +40,8 @@
 
 1. Клонируйте репозиторий или скачайте архив:
    ```
-   git clone <URL_вашего_репозитория>
-   cd <Папка_вашего_проекта>
+   git clone https://github.com/Alexandre77777/dpo_classification.git
+   cd dpo_classification
    ```
 
 2. Убедитесь, что у вас установлены Python 3.x и pip. Установите требуемые зависимости:
